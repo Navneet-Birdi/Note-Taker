@@ -1,7 +1,7 @@
 //create router instance
 const router = require('express').Router();
 const path = require('path');
-const publicPath = path.join(_dirname, '..', 'public');
+const publicPath = path.join(__dirname, '..', 'public');
 
 //* `GET /' should return the index.html file
 router.get('/', (req,res) => {
